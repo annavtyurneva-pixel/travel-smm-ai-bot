@@ -71,8 +71,7 @@ def load_settings(env_file: str | Path = ".env") -> Settings:
         target_channel_id=_as_int("TARGET_CHANNEL_ID", os.getenv("TARGET_CHANNEL_ID")),
         openai_api_key=os.getenv("OPENAI_API_KEY") or None,
         openai_text_model=os.getenv("OPENAI_TEXT_MODEL", "gpt-4.1-mini"),
-        openai_image_model=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-1"),
+        openai_image_model=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"),
         database_path=Path(os.getenv("DATABASE_PATH", "data/travel_smm.db")),
         log_level=os.getenv("LOG_LEVEL", "INFO").upper(),
     )
-

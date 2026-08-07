@@ -79,7 +79,7 @@ ADMIN_TELEGRAM_ID=ваш_числовой_id
 TARGET_CHANNEL_ID=-100xxxxxxxxxx
 OPENAI_API_KEY=
 OPENAI_TEXT_MODEL=gpt-4.1-mini
-OPENAI_IMAGE_MODEL=gpt-image-1
+OPENAI_IMAGE_MODEL=gpt-image-2
 DATABASE_PATH=data/travel_smm.db
 LOG_LEVEL=INFO
 ```
